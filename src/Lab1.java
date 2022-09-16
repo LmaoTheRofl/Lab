@@ -1,11 +1,10 @@
 public class Lab1 {
     public static void main(String[] args) {
         long[] c = new long[10];
-    for(int i =0; i<11; i++) {
         for(int j=4,b=0;j<23;j+=2) {
         c[b]=j;
         b++;
-    }}
+    }
        double[] x = new double[18];
        for (int i = 0; i<18; i++) {
            double num = (Math.random()*19-5);

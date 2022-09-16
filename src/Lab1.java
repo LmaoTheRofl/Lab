@@ -1,16 +1,19 @@
+import java.util.Arrays;
+
 public class Lab1 {
     public static void main(String[] args) {
-        short x1 = 15;
-        short[] c = new short[10];
-        for (int i = 0; i<10; i++) {
-            c[i] = x1;
-            x1--;
-         }
-       float[] x = new float[20];
+        long[] c = new long[10];
+    for(int i =0; i<11; i++) {
+        for(int j=4,b=0;j<23;j+=2) {
+        c[b]=j;
+        b++;
+    }}
+        System.out.println(Arrays.toString(c));
+       double[] x = new double[20];
        for (int i = 0; i<20; i++) {
-           float num = (float) (Math.random()*22-10);
+           double num = (Math.random()*19-5);
            x[i] = num;
-       }
+       }System.out.println(Arrays.toString(x));
        double[][] d = new double[10][20];
        for (int i = 0; i<10; i++){
            for (int j = 0; j<20; j++){
@@ -33,6 +36,6 @@ public class Lab1 {
                 System.out.print(" ");
             }
             System.out.println();
-        }
-        }
-}
+        }}}
+
+

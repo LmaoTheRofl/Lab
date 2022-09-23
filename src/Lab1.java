@@ -20,7 +20,7 @@ public class Lab1 {
                    d[i][j] = Math.cos(Math.sin(Math.cos(x[j])));
                }
                else {
-                   d[i][j] = Math.atan(Math.cos(Math.asin(Math.pow(Math.E, Math.pow(-1*(Math.pow((5*(Math.abs(x[j])+1)), 2)), (1/3))))));
+                   d[i][j] = Math.atan(Math.cos(Math.asin(Math.pow(Math.E, Math.cbrt(-1*(Math.pow((5*(Math.abs(x[j])+1)), 2)))))));
                }
 
            }
